@@ -1,41 +1,58 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>change the view, for me and you</title>
+    <title>LGBTQIA+ ALLY ORG.</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, intitial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="osaka.webp">
-    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/charger" type="text/css"/>
-    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/nicolas-frespech" type="text/css"/>
-    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/ruji-s-handwriting-font-v-2-0" type="text/css"/>
+    <link rel="icon" type="image/x-icon" href="icon.png">
     <style>
+        @font-face {
+            font-family: 'ruji';
+            src: url(RujisHandwritingFontv.2.0.otf);
+        }
+
+        @font-face {
+            font-family: 'handwriting';
+            src: url(HandwritingBasics-Regular.ttf);
+        }
+
+        @font-face {
+            font-family: 'kali';
+            src: url(Sedap\ Kali.ttf);
+        }
         body {
-            background-image: linear-gradient(to top, #eeb6ea, #c79ceb, #9ec2eb, #b4eda7, #f4f8b8, #fed1ac, #eaadaf);
+            /*background-image: linear-gradient(to top, #eeb6ea, #c79ceb, #9ec2eb, #b4eda7, #f4f8b8, #fed1ac, #eaadaf);*/
+            background-image: url('backgroundimage.png');
             background-repeat: no-repeat;
-            background-attachment: scroll;
-            font-family: 'ChargerRegular', sans-serif;
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+            font-family: 'kali', sans-serif;
         }
         .header {
             display: flex;
+            flex-wrap: wrap;
             opacity: 0.9;
-            /*background-image: linear-gradient(to top, #ed98ad, #f2c7c7);*/
-            background-image: linear-gradient(to top, #e3c559, #e38e59, #e35959);
+            background-image: linear-gradient(to bottom, #ab2e89, #cf3a62, #de5d40, #cfab35);
+            /*background-image: linear-gradient(to bottom, #413c99, #8e1fb7, #b71f61);*/
             padding: 10px;
             box-shadow: 2px 5px 10px #eb5b6c;
             border-radius: 20px;
             border: 0.5px solid white;
             width: 75%;
+            overflow: hidden;
             margin: auto;
         }
         h1 {
-             font-family: 'RujisHandwritingFontv20Medium', cursive;
+             font-family: 'ruji', cursive;
              padding: 0px 0px 0px 40px;
         }
         
         strong {
-            font-family: 'NicolasFrespechRegular', sans-serif;
+            font-family: 'handwriting', cursive;
+            font-size: 30px;
             padding: 35px 0px 0px 20px;
-            background: -webkit-linear-gradient(white, #ffd64f);
+            background: -webkit-linear-gradient(white, #cfab35);
             background-clip: text;
             -webkit-text-fill-color: transparent;
         }
@@ -44,26 +61,26 @@
             float: right;
             width: 50%;
             opacity: 0.9;
-            background-image: linear-gradient(to top, #59c7e3, #69e359,#e3c559);
+            background-image: linear-gradient(to top, #3d71b6, #47ae3a,#cfab35);
             box-shadow: 2px 5px 10px #874fab;
-            color: #fff8de;
+            color: #ffeba2;
             text-shadow: 2px 2px 5px #874fab;
             padding: 10px;
             border-radius: 20px;
-            border: 0.5px solid white;
+            border: 0.5px solid #ffeba2;
         }
 
         .box2 {
             float: left;
             width: 50%;
             opacity: 0.9;
-            background-image: linear-gradient(to top, #e359b9, #c059e3, #59c7e3);
+            background-image: linear-gradient(to top, #b13a8e, #8734a3, #3d71b6);
             box-shadow: 2px 5px 10px #874fab;
             text-shadow: 2px 5px 5px #893aa6;
-            color: #fff8de;
+            color: #ffeba3;
             padding: 10px;
             border-radius: 20px;
-            border: 0.5px solid white;
+            border: 0.5px solid #ffeba2;
         }
 
         .container {
@@ -73,6 +90,9 @@
             justify-content: center;
             gap: 20px;
             align-items: center;
+        }
+        .header img {
+            filter: drop-shadow(2px 2px 2px #2d1649);
         }
         ul {
             list-style-type: none;
@@ -101,8 +121,8 @@
 <body>
 
     <div class="header">
-        <img src="rainbow-flag.png" alt="logo" style="width:100px;height:100px;padding:5px;">
-        <strong>change the view, for me and you</strong>
+        <!---<img src="largeicon.png" alt="logo" style="width:100px;height:100px;padding:5px;">-->
+        <img src="alt.png" alt="logo" style="width:250px;height:100px;padding:5px;">
         <ul>
             
             <li><a href="about.html">about</a></li>
@@ -122,6 +142,6 @@
     </div>
     <img src="ishowspeed.jpg" alt="placeholder" style="max-width:100%;height:auto;float:right;">
     </div>
-
+    <footer><center>none of this is real. it's just a concept</center></footer>
 </body>
 </html>
