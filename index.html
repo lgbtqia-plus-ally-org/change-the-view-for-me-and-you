@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>LGBTQIA+ ALLY ORG.</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, intitial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="icon.png">
+    <style>
+
+         @font-face {
+            font-family: 'book';
+            src: url(Garet-Book.otf);
+        }
+        body {
+            /*background-image: linear-gradient(to top, #eeb6ea, #c79ceb, #9ec2eb, #b4eda7, #f4f8b8, #fed1ac, #eaadaf);*/
+            background-color:hsla(315,80%,37%,1);
+            background-image:
+            radial-gradient(at 43% 98%, hsla(135,89%,45%,1) 0px, transparent 50%),
+            radial-gradient(at 0% 84%, hsla(283,100%,40%,1) 0px, transparent 50%),
+            radial-gradient(at 12% 11%, hsla(49,100%,65%,1) 0px, transparent 50%),
+            radial-gradient(at 50% 36%, hsla(21,94%,55%,1) 0px, transparent 50%),
+            radial-gradient(at 80% 0%, hsla(227,100%,57%,1) 0px, transparent 50%),
+            radial-gradient(at 85% 60%, hsla(340,100%,50%,1) 0px, transparent 50%);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+            font-family: 'book', sans-serif;
+            color: white;
+        }
+        .box1:hover, .box2:hover, .box3:hover {
+            color: white;
+            text-shadow: 0px 0px 10px white;
+            box-shadow: 0px 0px 10px #ffffff;
+        }
+
+        a:hover {
+            color: white;
+            text-shadow: 0px 0px 10px white;
+        }
+        .header {
+            display: flex;
+            flex-wrap: wrap;
+            opacity: 0.9;
+            background-image: linear-gradient(to bottom, #ab2e89, #cf3a62, #de5d40, #cfab35);
+            /*background-image: linear-gradient(to bottom, #413c99, #8e1fb7, #b71f61);*/
+            animation: kys 5s ease infinite;
+            background-size: 150% 150%;
+            padding: 10px;
+            box-shadow: 2px 5px 10px #eb5b6c;
+            border-radius: 20px;
+            border: 0.5px solid white;
+            width: 80%;
+            overflow: hidden;
+            margin: auto;
+        }
+
+        .icon {
+            transition-property: brightness 1s, drop-shadow 1s;
+            transition-duration: 1s;
+        }
+
+        .icon:hover {
+            filter:brightness(100%);
+            filter:drop-shadow(0px 0px 10px white);
+        }
+        h1 {
+             font-family: 'book', sans-serif ;
+             padding: 0px 0px 0px 40px;
+        }
+        @keyframes kys {
+            0% { background-position: 10% 0%; }
+            50% { background-position: 91% 100%; }
+            100% { background-position: 10% 0%; }
+        }
+        .box1 {
+            float: right;
+            width: 40%;
+            opacity: 0.9;
+            background-image: linear-gradient(to top, #3d71b6, #47ae3a,#cfab35);
+            animation: kys 5s ease infinite;
+            background-size: 150% 150%;
+            box-shadow: 2px 5px 10px #874fab;
+            color: #ffeba2;
+            text-shadow: 2px 2px 5px #225db5;
+            padding: 20px;
+            border-radius: 20px;
+            border: 0.5px solid #ffeba2;
+            transition-property: color 1s, text-shadow 1s, border-shadow 1s;
+            transition-duration: 1s;
+        }
+
+        .box2 {
+            float: left;
+            width: 40%;
+            opacity: 0.9;
+            animation: kys 5s ease infinite;
+            background-size: 150% 150%;
+            background-image: linear-gradient(to top, #c12c95, #8734a3, #3d71b6);
+            box-shadow: 2px 5px 10px #874fab;
+            text-shadow: 2px 5px 5px #571697;
+            color: #ffeba3;
+            padding: 20px;
+            border-radius: 20px;
+            border: 0.5px solid #ffeba2;
+            transition-property: color 1s, text-shadow 1s, border-shadow 1s;
+            transition-duration: 1s;
+        }
+
+        .box3 {
+            float: left;
+            width: 40%;
+            opacity: 0.9;
+            animation: kys 5s ease infinite;
+            background-size: 150% 150%;
+            background-image: linear-gradient(to bottom, #ab2e89, #cf3a62, #de5d40, #cfab35);
+            box-shadow: 2px 5px 10px #874fab;
+            text-shadow: 2px 5px 5px #951697;
+            color: #ffeba3;
+            padding: 20px;
+            border-radius: 20px;
+            border: 0.5px solid #ffeba2;
+            transition-property: color 1s, text-shadow 1s, border-shadow 1s;
+            transition-duration: 1s;
+        }
+
+        .box4 {
+            width: 40%;
+            opacity: 0.9;
+            animation: kys 5s ease infinite;
+            background-size: 150% 150%;
+            background-image: linear-gradient(to top, #3d71b6, #47ae3a, #cfab35);
+            box-shadow: 2px 5px 10px #874fab;
+            text-shadow: 2px 5px 5px #571697;
+            color: #ffeba3;
+            padding: 20px;
+            border-radius: 20px;
+            border: 0.5px solid #ffeba2;
+            transition-property: color 1s, text-shadow 1s, border-shadow 1s;
+            transition-duration: 1s;
+        }
+
+        footer {
+            width: auto;
+            text-align: center;
+            opacity: 0.9;
+            animation: kys 5s ease infinite;
+            background-size: 150% 150%;
+            background-image: linear-gradient(to top, #3d71b6, #47ae3a, #cfab35);
+            box-shadow: 2px 5px 10px #874fab;
+            text-shadow: 2px 5px 5px #571697;
+            color: #ffeba3;
+            padding: 20px;
+            border-radius: 20px;
+            border: 0.5px solid #ffeba2;
+            transition-property: color 1s, text-shadow 1s, border-shadow 1s;
+            transition-duration: 1s;
+        }
+
+        .container {
+            margin: 30px 0px 0px 0px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            align-items: center;
+        }
+        .header img {
+            filter: drop-shadow(0px 0px 5px #ffb625);
+            transition-property: hue-rotate 2s;
+            transition-duration: 2s;
+        }
+
+        .header img:hover {
+            filter: hue-rotate(-90deg);
+            filter: drop-shadow(0px 0px 5px #ffb625);
+        }
+        ul {
+            list-style-type: none;
+            float: left;
+        }
+        ul li {
+            float: left;
+            padding: 20px;
+            font-size: 30px;
+        }
+        a {
+            text-decoration: none;
+            color: #ffe799;
+            transition-property: color 1s, text-shadow 1s;
+            transition-duration: 1s;
+        }
+            
+        @media only screen and (max-width: 850px) {
+        /* For mobile devices: */
+        .container, .box1, .box2, .box3 {
+        width: 100%;
+        }
+    }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <!---<img src="largeicon.png" alt="logo" style="width:100px;height:100px;padding:5px;">-->
+        <img src="alt.png" alt="logo" style="width:250px;height:100px;padding:5px;">
+        <ul>
+            
+            <li><a href="#">CONTACT</a></li>
+            <li><a href="donate.html">DONATE</a></li>
+            <li><a href="sign.html">JOIN US</a></li>
+        </ul>
+    </div>
+    
+    <div class="container">
+        <div class="icon">
+    <img src="ddkdkdk.png" alt="placeholder" style="max-width:100%;height:auto;float:left;">
+    </div>
+    <div class="box1" style="float:right;">
+        <h1>ABOUT US</h1>
+    <p><strong>LGBTQIA+ ALLY ORG.</strong> is a non-profit organization that advocates for LGBTQIA+ rights and equality.</p>
+    <p><em><strong>"Change the View, For Me and You"</strong></em> is a project from this organization that helps empower queer voices and perspectives through creative and enriching storytelling.</p>
+    </div>
+    <div class="box2">
+        <h1>OUR MISSION</h1>
+    <p>With our project, <em>"Change the View, For Me and You"</em>, we aim to transform real-life queer experiences into informative and engaging content to raise awareness, encourage inclusivity, and to fight against the ongoing discrimination that is faced by people who are part of the community.</p>
+    </div>
+    <div class="icon">
+    <img src="element.png" alt="placeholder" style="max-width:100%;height:auto;float:right;">
+    </div>
+     <div class="icon">
+     <img src="megaphone.png" alt="" style="max-width:100%;height:auto;float:left;padding:10px;">
+     <figcaption>queer voices matter</figcaption>
+        <img src="sheild.png" alt="" style="max-width:100%;height:auto;float:left;padding:10px;">
+        <figcaption>anti-homophobia</figcaption></div>
+        <div class="box3">
+        <p>Despite Filipinos becoming more accepting to queer people as a whole, others still refuse to accept the fact that there's nothing wrong with being queer. Additionaly, people from the LGBTQIA+ community still face different forms of discrimination and harrassment in different sectors. Our organization helps to create a safe space for people who identify themselves as queer.</p>
+    </div>
+</div>
+<br>
+<br>
+       <footer>©2026 LGBTQIA+ ALLY ORG.</footer>
+</body>
+</html>
